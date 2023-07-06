@@ -1,0 +1,100 @@
+
+.home-main-div{
+    
+    max-width: 600px;
+    height:800px;
+    margin: auto;
+    background-image: url("https://sahayak.org/images/mob_bg.jpg");
+    background-size: contain;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-position: bottom;
+}
+.home-img-div{
+    height: 177px;
+    width: 398px;
+    margin: auto;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.home-profile-container{
+    display: flex;
+    height: 145px;
+   
+}
+.home-profile-img{
+    width: 136px;
+    height: 134px;
+    border-radius: 50%;
+    margin: 0px 8px;
+    
+    
+}
+.home-info{
+    padding: 24px 0px 11px;
+    margin-left: 10px;
+    line-height: 30px;
+}
+.info-name{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #e73209;
+}
+.info{
+    font-size: 1rem;
+    color: black;
+}
+
+.home-but-main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 15px;
+}
+.home-but-div{
+    width: 225px;
+    height: 200px;
+    margin: 10px;
+}
+.home-but{
+    border: none;
+    cursor: pointer;
+}
+.home-but-div1{
+    width: 40%;
+    margin: 10px;
+    
+}
+.home-but-div2{
+    margin: 10px;
+    width: 40%;
+    
+}
+.heading-div{
+    color: #e2000f;
+    font-weight: 900 ;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+.heading-img-div{
+    margin: auto;
+    height: 25px;
+    width: 398px;
+}
+
+
+.home-profile-img-div{
+    vertical-align: middle;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+.home-profile-doc-img{
+    height:100%;
+    width:100%;
+    border-radius: 50%;
+}

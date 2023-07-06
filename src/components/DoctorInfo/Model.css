@@ -1,0 +1,39 @@
+.model-wrapper{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(189, 189, 189, 0.9);
+}
+.model-container{
+    position: absolute;
+    max-width: 30rem;
+    height: 780px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0rem 1rem;
+    background-color: white;
+    margin-top: 50px;
+    background-image: url("https://sahayak.org/images/mob_bg.jpg");
+    background-size: contain;
+    background-position: bottom ;
+    border: 20px solid;
+    border-image-slice: 2;
+    border-width: 6px;
+    border-image-source: linear-gradient(106deg, #e51b0c, #f2b900)
+}
+
+.text-div{
+    display: flex;
+    justify-content: space-between;
+}
+.text-heading{
+    background: linear-gradient(45deg, #7bc683, #44acc9, #3e499a);
+    font-weight: 900;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: x-large;
+    padding: 5px;
+}
